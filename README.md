@@ -29,20 +29,3 @@ From channel       To channel        from another channel
 - `REPLACE_STRING` - (Optional) Keyword to add in the place of `REMOVE_STRING`
 
 ### Note
-- Supported identifier for a chat should be the chat id, username or message link.
-- Use `/forward` command to forward older messages. For message older than 2 days you have to login as a user and set the `TELEGRAM_SESSION` variable. Command usage - `/forward <Chat ID/Username/Message Link> <Limit, No. of Messages to forward> <ID of the last message of from chat to avoid repetition>`
-
-### Installing Requirements
-Install the required Python Modules in your machine.
-```
-pip3 install -r requirements.txt
-```
-### Deployment
-With python3.7 or later.
-```
-python3 -m bot
-```
-
-### Copyright & License
-- Copyright &copy; 2021 &mdash; [Adnan Ahmad](https://github.com/viperadnan-git)
-- Licensed under the terms of the [GNU General Public License Version 3 &dash; 29 June 2007](./LICENSE)
